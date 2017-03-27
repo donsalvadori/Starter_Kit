@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my personal portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donsalvadori/Starter_Kit.git"
+  },
+  "author": "Chris Salvi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donsalvadori/Starter_Kit/issues"
+  },
+  "homepage": "https://github.com/donsalvadori/Starter_Kit#readme"
+}
