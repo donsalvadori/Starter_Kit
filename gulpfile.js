@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync').create();
+var bourbon = require("bourbon").includePaths;
 
 gulp.task('browserSync', function() {
   browserSync.init({
@@ -14,7 +15,8 @@ gulp.task('browserSync', function() {
 gulp.task('sass', function () {
   return gulp.src('assets/css/main.sass')
     .pipe(sass({
-      onError: browserSync.notify
+      onError: browserSync.notify,
+      includePaths: ["styles"].concat(bourbon)
     }))
     .pipe(gulp.dest('assets/css'))
     .pipe(browserSync.reload({stream:true}))

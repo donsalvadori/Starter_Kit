@@ -392,6 +392,9 @@ input[type="button"] {
     flex-direction: column;
     justify-content: space-between; }
   .home-wrap header .logo {
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap;
     background-image: url(/assets/img/logo-tn.svg);
     background-repeat: no-repeat;
     background-position: center;
