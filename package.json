@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "bourbon": "^4.3.3",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "normalize-scss": "^6.0.0"
   },
   "devDependencies": {
     "browser-sync": "^2.18.8",
