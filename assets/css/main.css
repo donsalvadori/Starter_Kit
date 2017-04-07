@@ -378,19 +378,18 @@ input[type="button"] {
   width: 100%;
   left: 0; }
 
-.home-wrap header {
-  width: 135px;
-  background: white;
-  padding: 30px 0; }
   .home-wrap header .header-position {
-    position: fixed;
-    top: 30px;
-    left: 0;
-    bottom: 30px;
-    width: 135px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
+      position: fixed;
+      top: 0px;
+      padding-top: 30px;
+      left: 0;
+      bottom: 0px;
+      padding-bottom: 30px;
+      width: 135px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: white; }
   .home-wrap header .logo {
     overflow: hidden;
     text-indent: 101%;
