@@ -568,43 +568,46 @@ input[type="button"] {
   width: 100%;
   left: 0; }
 
-  .home-wrap header .header-position {
-      position: fixed;
-      top: 0px;
-      padding-top: 30px;
-      left: 0;
-      bottom: 0px;
-      padding-bottom: 30px;
-      width: 135px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      background-color: white; }
-  .home-wrap header .logo {
-    overflow: hidden;
-    text-indent: 101%;
-    white-space: nowrap;
-    background-image: url(/assets/img/logo-tn.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-color: pink;
-    height: 80px;
-    padding: 0;
-    margin: 0; }
-  .home-wrap header .site-nav ul {
-    list-style: none;
-    margin: 20px 0;
-    padding: 0 20px 0 0;
-    text-align: right; }
-    .home-wrap header .site-nav ul li {
-      margin-bottom: 10px; }
-      .home-wrap header .site-nav ul li:last-child {
-        margin-bottom: 0; }
-  .home-wrap header .email-link {
-    display: block;
-    text-align: right;
-    padding-right: 20px; }
+.home-wrap header .header-position {
+  position: fixed;
+  top: 0px;
+  padding-top: 30px;
+  left: 0;
+  bottom: 0px;
+  padding-bottom: 30px;
+  width: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white; }
+
+.home-wrap header .logo {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  background-image: url(/assets/img/logo-tn.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: pink;
+  height: 80px;
+  padding: 0;
+  margin: 0; }
+
+.home-wrap header .site-nav ul {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0 20px 0 0;
+  text-align: right; }
+  .home-wrap header .site-nav ul li {
+    margin-bottom: 10px; }
+    .home-wrap header .site-nav ul li:last-child {
+      margin-bottom: 0; }
+
+.home-wrap header .email-link {
+  display: block;
+  text-align: right;
+  padding-right: 20px; }
 
 body {
   margin: 10px;
