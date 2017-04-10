@@ -656,15 +656,13 @@ input[type="button"] {
 
 @media (max-width: 775px) {
   .home-wrap header {
-    width: auto;
-    padding: 0px 0px; }
+    width: auto; }
     .home-wrap header .header-position {
       width: auto;
       position: relative;
       top: auto;
       bottom: auto;
       left: auto;
-      flex-direction: row;
       align-items: center; }
     .home-wrap header .site-nav,
     .home-wrap header .email-link {
