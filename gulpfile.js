@@ -23,7 +23,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('watch', ['browserSync', 'sass'], function(){
-  gulp.watch('assets/css/*', ['sass']); 
+  gulp.watch('assets/css/*', ['sass'],  browserSync.reload); 
   // Reloads the browser whenever HTML or JS files change
   gulp.watch('index.html', browserSync.reload); 
   gulp.watch('assets/js/*.js', browserSync.reload); 

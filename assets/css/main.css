@@ -591,7 +591,6 @@ input[type="button"] {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-color: pink;
     height: 80px;
     padding: 0;
     margin: 0; }
@@ -600,10 +599,10 @@ input[type="button"] {
     margin: 20px 0;
     padding: 0 20px 0 0;
     text-align: right; }
-    .home-wrap header .site-nav ul li {
-      margin-bottom: 10px; }
-      .home-wrap header .site-nav ul li:last-child {
-        margin-bottom: 0; }
+  .home-wrap header .site-nav li {
+    margin-bottom: 10px; }
+    .home-wrap header .site-nav li:last-child {
+      margin-bottom: 0; }
   .home-wrap header .email-link {
     display: block;
     text-align: right;
@@ -628,41 +627,27 @@ input[type="button"] {
       top: 15px; }
     .home-wrap header .mobile-nav-toggle span:after {
       bottom: -17px; }
-    .home-wrap header .mobile-nav-toggle.is-open span {
+    .home-wrap header .mobile-nav-toggle:hover span {
       background: transparent; }
-    .home-wrap header .mobile-nav-toggle.is-open span:before,
-    .home-wrap header .mobile-nav-toggle.is-open span:after {
+    .home-wrap header .mobile-nav-toggle:hover span:before,
+    .home-wrap header .mobile-nav-toggle:hover span:after {
       transform-origin: center;
       transform: rotate(45deg);
       top: 0; }
-    .home-wrap header .mobile-nav-toggle.is-open span:before {
+    .home-wrap header .mobile-nav-toggle:hover span:after {
       transform: rotate(-45deg); }
-
-.home-wrap .mobile-nav {
-  display: none;
-  position: absolute;
-  width: 100%;
-  background: white;
-  padding: 30px 0 20px;
-  transform: translateY(-100%);
-  transition: all 0.3 ease-in-out; }
-  .home-wrap .mobile-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0; }
-  .home-wrap .mobile-nav li {
-    text-align: center;
-    margin-bottom: 10px; }
 
 @media (max-width: 775px) {
   .home-wrap header {
-    width: auto; }
+    width: auto;
+    padding: 20px 0; }
     .home-wrap header .header-position {
       width: auto;
       position: relative;
       top: auto;
       bottom: auto;
       left: auto;
+      flex-direction: row;
       align-items: center; }
     .home-wrap header .site-nav,
     .home-wrap header .email-link {
@@ -670,10 +655,7 @@ input[type="button"] {
     .home-wrap header .logo {
       height: 45px; }
     .home-wrap header .mobile-nav-toggle {
-      display: flex; }
-    .home-wrap header .mobile-nav.is-open {
-      display: block;
-      transform: translateY(0%); } }
+      display: flex; } }
 
 body {
   margin: 10px;
